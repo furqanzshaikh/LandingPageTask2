@@ -1,0 +1,97 @@
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  
+    nav {
+      display: none;
+    }
+    .main-screen > img{
+        height: 50vh;
+    }
+    #menu{
+        display: inline-block;
+        position: absolute;
+        z-index: 10;
+        font-size: 4vw;
+        color: gainsboro;
+        top: 20px;
+        left: 20px;
+    }
+    .text-input{
+        height: 54vh;
+
+    }
+    .input-container input{
+        width: 65vw;
+        height: 4vw;
+    }
+    .carousel-header{   
+    width: 95%;
+    margin: 2vw auto;
+    padding: 0;
+    
+    }
+    
+    .carousel{
+        width: auto;
+        margin: 2vw auto;
+    }
+
+    
+    
+}  
+
+
+@media screen and (max-width:920px){
+    
+    nav {
+        display: none;
+      }
+      .main-screen > img{
+          height: 50vh;
+      }
+      #menu{
+        display: inline-block;
+        position: absolute;
+        z-index: 10;
+        font-size: 20px;
+        color: gainsboro;
+        top:20px;
+        left: 20px;
+    }
+      .text-input{
+          height: 54vh;
+  
+      }
+      .input-container input{
+          width: 65vw;
+          height: 4vw;
+      }
+      .carousel-header{   
+      width: 95%;
+      margin: 2vw auto;
+      padding: 0;
+      
+      }
+      .carousel{
+          width: 95%;
+          margin: 2vw auto;
+          display: grid;
+      }
+  
+
+
+}
+  
+@media screen and (max-width:600px){
+    *{
+        font-size: 12px;
+    }
+    .photos{
+        flex-direction: column;
+        margin: 2vw 0;
+    }
+    .icons{
+        display: none;
+    }
+
+
+}
